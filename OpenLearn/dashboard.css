@@ -1,0 +1,60 @@
+/* NAV BAR STYLING */
+.navbar {
+    width: 100%;
+    background: #0073e6;
+    padding: 12px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.nav-left .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-right a:hover {
+    color: #d4e9ff;
+}
+
+.nav-right a.active {
+    text-decoration: underline;
+}
+
+/* Adjust page content to fit below navbar */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(120deg, #e0f3ff, #cfe8ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    animation: fadeIn 0.6s ease-in-out;
+    margin-top: 80px; /* Push below nav bar */
+}
