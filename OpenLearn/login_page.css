@@ -1,0 +1,38 @@
+body {
+    background: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.auth-box {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 330px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+button {
+    background: #0066cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004c99;
+}
