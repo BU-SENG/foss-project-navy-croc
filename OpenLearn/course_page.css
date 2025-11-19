@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    margin: 0;
+    padding: 20px;
+}
+/* NAV BAR STYLING */
+.navbar {
+    width: 100%;
+    background: #0073e6;
+    padding: 12px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    right: 0;
+}
+
+.nav-left .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-right a:hover {
+    color: #d4e9ff;
+}
+
+.nav-right a.active {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.course-list a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    background: #0073e6;
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.course-list a:hover {
+    background: #005bb5;
+}
