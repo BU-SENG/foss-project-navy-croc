@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Resource</title>
+    <link rel="stylesheet" href="/CSS/upload_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="logo">EduPortal</a>
+        </div>
+        <div class="nav-right">
+            <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="dashboard.html" class="active"><i class="fa-solid fa-gauge"></i> Dashboard</a>
+            <a href="rating.html"><i class="fa-solid fa-comment-dots"></i> Comment</a>
+            <a href="index.html"><i class="fa-solid fa-book-open"></i> Courses</a>
+            <a href="upload.html"><i class="fa-solid fa-upload"></i> Upload</a>
+        </div>
+    </nav>
+
+    <!-- Upload Box -->
+    <div class="upload-box">
+        <h2>Upload Resource</h2>
+        <form>
+            <input type="text" placeholder="Resource Title" required>
+            <select required>
+                <option value="">Select Course</option>
+                <option>GST 123</option>
+                <option>MTH 101</option>
+                <option>CHM 102</option>
+                <option>PHY 108</option>
+                <option>GST 111</option>
+            </select>
+            <input type="file" required>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+
+</body>
+</html>
